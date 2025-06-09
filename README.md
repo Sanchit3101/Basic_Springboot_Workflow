@@ -32,9 +32,9 @@ This project is a simple **RESTful API** built using **Spring Boot**, **Spring D
 Update `application.properties` in `src/main/resources`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://172.16.6.145:3306/studentDatabase
+spring.datasource.url=jdbc:mysql:localhost:(portnumber)/studentDatabase
 spring.datasource.username=root
-spring.datasource.password=my-secret-pw
+spring.datasource.password=*password*
 
 spring.jpa.hibernate.ddl-auto=create
 spring.jpa.show-sql=true
